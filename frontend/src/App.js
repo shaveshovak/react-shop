@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import ProductFullInfo from './screens/ProductFullInfo/ProductFullInfo';
 import Home from './screens/Home/Home';
 import { Container } from 'react-bootstrap';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -13,8 +13,8 @@ const App = () => {
       <Header />
       <main>
         <Container>
-          <Router path='/' component={Home} exact />
-          <Router path='/product:id' component={ProductFullInfo} />
+          <Route path='/' component={Home} exact />
+          <Route path='/product/:id' component={ProductFullInfo} />
         </Container>
       </main>
       <Footer />
