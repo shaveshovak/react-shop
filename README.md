@@ -13,3 +13,9 @@
  <li> <a href="https://bootswatch.com/">Bootswatch</a></li>
  <li> <a href="https://fontawesome.com/">FontAwesome</a></li>
 </ul>
+
+# Backend
+<ul>
+ <li>Node.js <a href="https://expressjs.com/">Express</a></li> 
+ <li>Database <a href="https://www.mongodb.com/">MongoDB</a></li>
+</ul>
