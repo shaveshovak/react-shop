@@ -18,7 +18,7 @@ const ProductFullInfo = ({ match }) => {
         }
 
         fetchProduct();
-    }, []);
+    }, [match]);
 
     return (
         <>
